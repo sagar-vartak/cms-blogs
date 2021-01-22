@@ -1,0 +1,40 @@
+.footer {
+  background-color: rgb(43, 38, 38);
+  color: white;
+}
+#copyright {
+  overflow: hidden;
+  border-top: 20px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+#copyright p {
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#copyright a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+.contact {
+  color: white;
+}
+.icon {
+  width: 80px;
+  height: 80px;
+}
+.contact li {
+  display: inline-block;
+  padding: 0em 0.1em;
+  font-size: 1em;
+  margin: 20px;
+  padding: 20px;
+}
+@media (max-width: 876px) {
+  .footer {
+    width: 100vh;
+    height: fit-content;
+  }
+}

@@ -1,0 +1,36 @@
+.btn {
+  color: white;
+  background-color: #1cc1df;
+  margin-top: 10px;
+  margin-right: 50px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: linear;
+}
+.btn:hover {
+  background-color: #17a2bb;
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(43, 38, 38);
+  width: 100%;
+  height: 80px;
+}
+.nav {
+  display: flex;
+  float: right;
+}
+@media (max-width: 876px) {
+  .header {
+    width: 100vh;
+  }
+}
